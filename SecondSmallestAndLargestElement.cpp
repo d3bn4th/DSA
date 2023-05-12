@@ -120,7 +120,7 @@ int secondLargest(vector<int>& vec){
             s_max = max;
             max = vec[i]; 
         }
-        else if(vec[i] > s_max && vec[i] != max){
+        else if(vec[i] > s_max && vec[i] < max){
             s_max = vec[i];
         }
     }
