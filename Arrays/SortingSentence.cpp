@@ -19,7 +19,7 @@ int main(){
     }
     map<int,string> mp;
     for(auto it : vec){
-        mp[it.back() - '0'] = it[]
+        // mp[it.back() - '0'] = it[];
     }
 
     return 0;
